@@ -1,9 +1,0 @@
-{
-  "name": "01",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "scripts": {
-    "compile": "tsc src/index.ts --target ES6 --module CommonJS"
-  }
-}

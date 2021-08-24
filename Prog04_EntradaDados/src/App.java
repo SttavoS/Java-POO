@@ -1,5 +1,5 @@
-public class EntradaDados {
-    public static void main(String[] args) {
+public class App {
+    public static void main(String[] args) throws Exception {
         byte vetorTexto[] = new byte[200];
         int bytesLidos = 0;
 

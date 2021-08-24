@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class Media {
-    public static void main(String[] args) {
+public class App {
+    public static void main(String[] args) throws Exception {
         Scanner leitor = new Scanner(System.in);
         float nota1, nota2, nota3, nota4, mediaFinal;
 
@@ -28,5 +28,5 @@ public class Media {
         }
 
         System.out.print("A media final é de: " + mediaFinal + " pontos.");
-    }    
+    }
 }

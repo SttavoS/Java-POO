@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class Triangulo {
-    public static void main(String[] args) {
+public class App {
+    public static void main(String[] args) throws Exception {
         int lado1, lado2, lado3;
 
         Scanner leitor = new Scanner(System.in);

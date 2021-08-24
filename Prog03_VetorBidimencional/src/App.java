@@ -1,5 +1,5 @@
-public class VetorBidimencional {
-    public static void main(String[] args) {
+public class App {
+    public static void main(String[] args) throws Exception {
         int vetorBidimencional[][]; // Declara a um vetor bidimencional
 
         vetorBidimencional = new int[2][3];

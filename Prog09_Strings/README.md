@@ -1,0 +1,1 @@
+Escreva um programa que lê Strings do teclado até que sejam lidas duas Strings iguais em seqüência, uma imediatamente após a outra. Quando isto ocorre, o programa imprime o número de Strings lidas, o tamanho da maior String lida e a concatenação de todas as Strings lidas exceto a última. Lembre-se que o operador '==' não compara o conteúdo das Strings.

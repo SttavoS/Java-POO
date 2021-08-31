@@ -19,7 +19,7 @@ public class App {
 
         scanner.close();
         
-		for(int j = 0; j < 10; j++){
+		for(int j = 0; j < vetor.length; j++){
 			if (vetor[j] > numX) {
 				maioresQueX++;
 			} else if(vetor[j] == numX){

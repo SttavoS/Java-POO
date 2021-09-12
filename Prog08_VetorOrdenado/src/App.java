@@ -39,17 +39,42 @@ public class App {
             System.out.println("O vetor está em ordem crescente!");
         } else if (ordem == 0) {
             System.out.println("O vetor está em ordem decrescente!");
-        } else {
+        } else if (ordem == -1) {
             System.out.println("O vetor não está ordenado!");
         }
     }
 
+    /**
+     * Verifica se o vetor está em ordem crescente ou decrescente
+     * @param vetor Vetor a ser verificado
+     * @return 1 se estiver em ordem crescente, 0 se estiver em ordem decrescente, -1 se não estiver ordenado
+     */
     private static int verificaOrdem(int vetor[]) {
-        for (int i = 1; i < vetor.length; i++) {
-            if (vetor[i - 1] > vetor[i]) {
-                return 0;
+        boolean ordem = true;
+        
+        for (int i = 0; i < vetor.length - 1; i++) {
+            if (vetor[i] > vetor[i + 1]) {
+                ordem = false;
+                break;
             }
         }
-        return 1;
+
+        if (ordem) {
+            return 1;
+        } else {
+            ordem = true;
+            for (int i = 0; i < vetor.length - 1; i++) {
+                if (vetor[i] < vetor[i + 1]) {
+                    ordem = false;
+                    break;
+                }
+            }
+
+            if (ordem) {
+                return 0;
+            } else {
+                return -1;
+            }
+        }
     }
 }

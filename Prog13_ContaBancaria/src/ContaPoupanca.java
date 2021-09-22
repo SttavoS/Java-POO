@@ -1,7 +1,7 @@
 public class ContaPoupanca extends Conta {
 
-    public ContaPoupanca(String nome, String endereco, String numero) {
-        super(nome, endereco, numero);
+    public ContaPoupanca(String nome, String numero) {
+        super(nome, numero);
         this.limite = 300;
         this.saldo = 0;
     }

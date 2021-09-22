@@ -1,14 +1,12 @@
 public abstract class Conta {
     protected String nome;
-    protected String endereco;
     protected String numero;
     protected double limite;
     protected double saldo;
 
-    public Conta(String nome, String endereco, String numero) {
-        this.nome = nome;
-        this.endereco = endereco;
-        this.numero = numero;
+    public Conta(String nome, String numero) {
+        this.nome = nome.trim();
+        this.numero = numero.trim();
     }
 
     public abstract void deposita(double quantitade);

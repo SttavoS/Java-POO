@@ -1,7 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        ContaCorrente cr = new ContaCorrente("João", "Rua dos Limões", "5555");
-        ContaPoupanca cp = new ContaPoupanca("Maria", "Rua das Laranjas", "3333");
+        ContaCorrente cr = new ContaCorrente("João","5555");
+        ContaPoupanca cp = new ContaPoupanca("Maria", "3333");
 
         System.out.println("CONTA CORRENTE");
         System.out.println("===========================");

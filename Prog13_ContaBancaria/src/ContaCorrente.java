@@ -1,7 +1,7 @@
 public class ContaCorrente extends Conta {
 
-    public ContaCorrente(String nome, String endereco, String numero) {
-        super(nome, endereco, numero);
+    public ContaCorrente(String nome, String numero) {
+        super(nome, numero);
         this.limite = 750;
         this.saldo = 0;
     }

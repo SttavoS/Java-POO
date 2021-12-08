@@ -1,9 +1,6 @@
 import java.text.MessageFormat;
 import java.text.NumberFormat;
 import java.util.Locale;
-
-import javax.management.RuntimeErrorException;
-
 public class Item {
     private String nome;
     private double preco;
